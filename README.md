@@ -67,7 +67,7 @@ This wrapper will use the EMDK with MX's AccessMgr feature to grant, deny or ver
 
 ## Implementation
 To use this helper on Zebra Android devices running Android 10 or higher, first declare a new permission in your AndroidManifest.xml
-The EMDK permission is compulsary, the others are depending on your needs.
+The EMDK permission is mandatory, the others are depending on your needs.
 
 ```xml
     <uses-permission android:name="com.symbol.emdk.permission.EMDK" />
